@@ -57,6 +57,35 @@ section h3 {
   color: #1a237e;
 }
 
+/* Hide bullet points and style participants */
+.participants-list {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+.participants-list em {
+  color: #888;
+}
+.participant-item {
+  display: inline-block;
+  background: #e3e3e3;
+  border-radius: 12px;
+  padding: 2px 8px 2px 8px;
+  margin: 2px 4px 2px 0;
+  font-size: 0.95em;
+  position: relative;
+}
+.delete-icon {
+  color: #c00;
+  cursor: pointer;
+  margin-left: 6px;
+  font-size: 1em;
+  vertical-align: middle;
+  transition: color 0.2s;
+}
+.delete-icon:hover {
+  color: #f00;
+}
+
 .activity-card {
   margin-bottom: 15px;
   padding: 15px;
